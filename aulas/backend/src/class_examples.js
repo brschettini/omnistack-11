@@ -69,4 +69,25 @@ app.post('/body_params', (request, response) => {
 });
 
 
+
+/**
+ * Databases
+ * 
+ * SQL: MySQL, SQLite, PostgreeSQL, Oracle, Microsoft SQL Server
+ *
+ * NoSQL: MongoDB, CouchDQ, etc
+ */
+
+
+ /**
+  * Database Access
+  * Driver: Install the DB driver in the machine
+  *         Example: SELECT * FROM users
+  * 
+  * Query Builder: Using a node library, Can be integrated with any SQL driver.
+  *         Example: table('users).select('*).where('<condition>')
+  *         Knex: After install type `npx knex init`
+  */
+  
+
 app.listen(3333);
