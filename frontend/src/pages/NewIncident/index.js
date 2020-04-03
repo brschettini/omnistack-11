@@ -32,7 +32,6 @@ export default function NewIncident() {
       alert('Não foi possível cadastrar novo caso. Tente novamente.')
     }
   }
-  
 
   return (
     <div className="new-incident-container">
